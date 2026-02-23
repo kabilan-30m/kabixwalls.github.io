@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KabixWalls — Live Wallpapers</title>
+
+<style>
+body {
+background: #0b0b0b;
+color: white;
+font-family: Arial;
+margin: 0;
+}
+
+header {
+text-align: center;
+padding: 30px;
+font-size: 40px;
+font-weight: bold;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.card {
+background: #1a1a1a;
+border-radius: 12px;
+overflow: hidden;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card img {
+width: 100%;
+display: block;
+}
+
+.title {
+padding: 15px;
+font-size: 18px;
+text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>KabixWalls — Live Wallpapers</header>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/500/300?1">
+<div class="title">Cyberpunk City — Live Wallpaper</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?2">
+<div class="title">Anime Night Sky — Live Wallpaper</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?3">
+<div class="title">4K Mountain Cinematic</div>
+</div>
+
+</div>
+
+</body>
+</html>
